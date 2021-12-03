@@ -3,9 +3,24 @@ body {
   /* font-family: "Playfair Display", serif; */
 }
 
-/* nav {
-  background-color: grey;
-} */
+h1 {
+  line-height: 120px;
+  font-weight: 200;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 42px;
+  color: #c4c4c4;
+}
+
+.bold {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 120px;
+}
 
 .nav-link {
   padding: 60px 0px;
@@ -25,7 +40,7 @@ body {
 }
 
 .row {
-  padding-bottom: 140px;
+  padding-bottom: 120px;
 }
 
 .col-sm-12.sub-title {
@@ -60,19 +75,18 @@ body {
   line-height: 42px;
 }
 
+.features {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 42px;
+  /* max-width: 540px; */
+}
+
 .proj-description {
   font-weight: 300;
   font-size: 16px;
   line-height: 42px;
   max-width: 540px;
-}
-
-.col-sm-12.proj-sub-title {
-  font-family: "Playfair Display", serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 42px;
-  color: #c4c4c4;
 }
 
 .col-sm-6.proj-summary {
@@ -86,17 +100,9 @@ body {
   display: none;
 }
 
-.container .row .col-sm-12.home-intro.hidden:hover .hidden-img {
+.container .row .col-sm-12.bold:hover .hidden-img {
   display: inline-block;
 }
-
-/* #hidden-img {
-  display: none;
-}
-
-#hidden-img:hover {
-  display: inline-block;
-} */
 
 #topBtn {
   display: none;
