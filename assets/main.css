@@ -1,0 +1,123 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Playfair Display", serif; */
+}
+
+/* nav {
+  background-color: grey;
+} */
+
+.nav-link {
+  padding: 60px 0px;
+  color: black;
+}
+
+.col-sm-12.home-intro--bold {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+.col-sm-12.home-intro {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+.row {
+  padding-bottom: 140px;
+}
+
+.col-sm-12.sub-title {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.col-sm-12.title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+}
+
+.col-sm-12.proj-description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 42px;
+  max-width: 540px;
+}
+
+.col-sm-6.proj-description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 42px;
+  max-width: 540px;
+}
+
+.col-sm-12.proj-problem-statement {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 42px;
+}
+
+.proj-description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 42px;
+  max-width: 540px;
+}
+
+.col-sm-12.proj-sub-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 42px;
+  color: #c4c4c4;
+}
+
+.col-sm-6.proj-summary {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 42px;
+  /* max-width: 300px; */
+}
+
+.hidden-img {
+  display: none;
+}
+
+.container .row .col-sm-12.home-intro.hidden:hover .hidden-img {
+  display: inline-block;
+}
+
+/* #hidden-img {
+  display: none;
+}
+
+#hidden-img:hover {
+  display: inline-block;
+} */
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid #d4d4d4;
+  background-color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#topBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.container .row .col-sm-12.home-intro.hidden {
+  font-weight: 800;
+}
